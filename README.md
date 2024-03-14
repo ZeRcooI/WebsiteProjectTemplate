@@ -32,6 +32,7 @@
 - npm i gulp-autoprefixer@8.0.0 --save-dev//исправит ошибку
 - sudo npm i sass -g //может исправить ошибку
 - npm i gulp-imagemin@7.1.0
+- npm install --save-dev gulp-htmlmin
 
 #########################################################################################################
 
