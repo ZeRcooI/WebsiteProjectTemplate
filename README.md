@@ -1,48 +1,32 @@
 Готовый начальный шаблон для любого проекта.
 
 Разрешена проблема конфликта Prettier и EsList
-Подключены Gulp
+Подключен Gulp
 Правильно собрана архитектруа проекта
-Папку node, не нужно переносить как шаблон. Она появляется при написании npm i в терминал.(она тут для того, если что-то пойдет не так)
-#настройка gulp
 
-npm i
-
-npm install gulp-cli -g
-
-npm install gulp-cli --save-dev
-
-npm install gulp --save-dev
-
-npm i gulp-sass --save-dev
-
-(sudo) npm install -g browser-sync
-
-npm i browser-sync --save-dev
-
-npm i gulp-autoprefixer --save-dev
-
-npm i gulp-clean-css --save-dev
-
-npm i sass -g
-
-npm i sass --save-dev
-
-globals: { $: true, require: true, process: true, }, //добавил это в eslintrc.js
-
-gulp - запуск сервера
-
-ctrl+c - остановка сервера
-
-npm i gulp-rename --save-dev
-
-npm i gulp-autoprefixer@8.0.0 --save-dev//исправит ошибку
-
-sudo npm i sass -g //может исправить ошибку
-
-npm i gulp-imagemin@7.1.0
-
-npm install --save-dev gulp-htmlmin
+# Что делать при запуске
+- npm i
+- npm update --save //для обновления всех версий
+- gulp - запуск сервера
+- ctrl+c - остановка сервера
+- 
+# Настройка gulp
+- npm install gulp-cli -g
+- npm install gulp-cli --save-dev
+- npm install gulp --save-dev
+- npm i gulp-sass --save-dev
+- (sudo) npm install -g browser-sync
+- npm i browser-sync --save-dev
+- npm i gulp-autoprefixer --save-dev
+- npm i gulp-clean-css --save-dev
+- npm i sass -g
+- npm i sass --save-dev
+- globals: { $: true, require: true, process: true, }, //добавил это в eslintrc.js
+- npm i gulp-rename --save-dev
+- npm i gulp-autoprefixer@8.0.0 --save-dev//исправит ошибку
+- sudo npm i sass -g //может исправить ошибку
+- npm i gulp-imagemin@7.1.0
+- npm install --save-dev gulp-htmlmin
 
 #########################################################################################################
 
