@@ -9,7 +9,7 @@
 - npm update --save //для обновления всех версий
 - gulp - запуск сервера
 - ctrl+c - остановка сервера
-- 
+  
 # Настройка gulp
 - npm install gulp-cli -g
 - npm install gulp-cli --save-dev
